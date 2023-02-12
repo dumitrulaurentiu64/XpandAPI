@@ -1,0 +1,34 @@
+{
+  "username": "Tychus",
+  "email": "tychus@gmail.com",
+  "userPassword": "password1",
+  "captainID": 1
+}
+
+{
+  "username": "Sarah",
+  "email": "sarah@gmail.com",
+  "userPassword": "password2",
+  "captainID": 2
+}
+
+{
+  "username": "Jim",
+  "email": "jim@gmail.com",
+  "userPassword": "password3",
+  "captainID": 3
+}
+
+{
+  "username": "Samir",
+  "email": "samir@gmail.com",
+  "userPassword": "password4",
+  "captainID": 4
+}
+
+{
+  "username": "Edmund",
+  "email": "edmund@gmail.com",
+  "userPassword": "password5",
+  "captainID": 5
+}

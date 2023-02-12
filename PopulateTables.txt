@@ -1,0 +1,93 @@
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Battlecruiser','Who called in the fleet?')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Viking','Transformation systems primed.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Vakyrie','Valkyrie prepared.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Liberator','The pinnacle of human engineering.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Carrier','Carrier has arrived.')
+
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (1,'Valhalla','Tychus Findlay')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (2,'Secret','Sarah Kerrigan')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (3,'Talon','Jim Raynor')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (4,'Spirit','Samir Duran')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (5,'Liquid','Edmund Duke')
+
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (1,'Tychus','Findlay')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (2,'Sarah','Kerrigan')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (3,'Jim','Raynor')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (4,'Samir','Duran')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (5,'Edmund','Duke')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'R5-D4')
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'AP-5')
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'BD-1')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (2,'R2-D2')
+INSERT INTO Robot (CrewID,RobotName) VALUES (2,'C-3PO')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'C1-10P')
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'4-LOM')
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'IG-11')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'EV-9D9')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'WALL-E')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'R1-J5')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'BB-8')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'2-1B')
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'L3-37')
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'BT-1')
+
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Battlecruiser','Who called in the fleet?')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Viking','Transformation systems primed.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Vakyrie','Valkyrie prepared.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Liberator','The pinnacle of human engineering.')
+INSERT INTO Shuttle (ShuttleName,Description) VALUES ('Carrier','Carrier has arrived.')
+
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (1,'Valhalla','Tychus Findlay')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (2,'Secret','Sarah Kerrigan')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (3,'Talon','Jim Raynor')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (4,'Spirit','Samir Duran')
+INSERT INTO Crew (ShuttleID, CrewName, CaptainFullname) VALUES (5,'Liquid','Edmund Duke')
+
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (1,'Tychus','Findlay')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (2,'Sarah','Kerrigan')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (3,'Jim','Raynor')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (4,'Samir','Duran')
+INSERT INTO Captain (CrewID, FirstName, LastName) VALUES (5,'Edmund','Duke')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'R5-D4')
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'AP-5')
+INSERT INTO Robot (CrewID,RobotName) VALUES (1,'BD-1')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (2,'R2-D2')
+INSERT INTO Robot (CrewID,RobotName) VALUES (2,'C-3PO')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'C1-10P')
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'4-LOM')
+INSERT INTO Robot (CrewID,RobotName) VALUES (3,'IG-11')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'EV-9D9')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'WALL-E')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'R1-J5')
+INSERT INTO Robot (CrewID,RobotName) VALUES (4,'BB-8')
+
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'2-1B')
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'L3-37')
+INSERT INTO Robot (CrewID,RobotName) VALUES (5,'BT-1')
+
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('IKADUS','assets/images/ikadus.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('DENKERTH','assets/images/denkerth.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('AZEROTH','assets/images/azeroth.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('ZAPHUS','assets/images/zaphus.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('TAXORE','assets/images/taxore.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('NIRN','assets/images/nirn.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('AMIDES','assets/images/amides.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('TARA','assets/images/tara.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('PANDORA','assets/images/pandora.png')
+INSERT INTO Planet (PlanetName, ImagePath) VALUES ('MERTH','assets/images/merth.png')
+
+
+
+
+
+
+

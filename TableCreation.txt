@@ -1,0 +1,49 @@
+
+Create table Shuttle (
+ShuttleID int Primary Key identity(1,1),
+ShuttleName varchar(55),
+Description varchar(500),
+)
+
+Create table Crew (
+CrewID int Primary Key identity(1,1),
+ShuttleID int,
+CrewName varchar(55),
+CaptainFullname varchar(110),
+FOREIGN KEY (ShuttleID) REFERENCES Shuttle(ShuttleID)
+)
+
+
+Create table Captain (
+CaptainID int Primary Key identity(1,1),
+CrewID int,
+FirstName varchar(55),
+LastName varchar(55),
+FOREIGN KEY (CrewID) REFERENCES Crew(CrewID)
+)
+
+Create table Planet (
+PlanetID int Primary Key identity(1,1),
+CrewID int,
+PlanetName varchar(55),
+ImagePath varchar(100),
+PlanetDescription varchar(500) default 'No description yet :/',
+PlanetStatus int default 1,
+FOREIGN KEY (CrewID) REFERENCES Crew(CrewID)
+)
+
+Create table Robot (
+RobotID int Primary Key identity(1,1),
+CrewID int,
+RobotName varchar(55),
+FOREIGN KEY (CrewID) REFERENCES Crew(CrewID)
+)
+
+Create table UserAccount(
+UserID int primary key identity(1,1) NOT NULL,
+Username varchar(55),
+UserPassword varchar(max),
+Email varchar(55),
+CaptainID int,
+FOREIGN KEY (CaptainID) REFERENCES Captain(CaptainID)
+)
